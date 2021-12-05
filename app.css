@@ -1,0 +1,81 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #eee;
+}
+
+.header {
+    text-align: center;
+    border-bottom: 1px solid #000;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.shop {
+    width: 80%;
+    float: left;
+    margin-top: 10px;
+}
+
+.card {
+    padding: 10px 10px 25px 10px;
+    width: 30%;
+    float: left;
+}
+
+.card .content p {
+    line-height: 30px;
+}
+
+.card input {
+    border-radius: 2px;
+    border: transparent;
+    padding: 5px;
+}
+
+.card button {
+    padding: 15px 20px;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 2px #999;
+}
+
+.card button:hover {
+    background-color: #3e8e41;
+}
+
+.card button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 1px #999999;
+    transform: translateY(4px);
+}
+
+.cart {
+    width: 20%;
+    float: right;
+    padding-top: 50px;
+    line-height: 20px;
+    font-weight: bold;
+}
+
+.cart span {
+    font-weight: normal;
+}
+
+.footer {
+    clear: both;
+    text-align: center;
+    border-top: 1px solid #000;
+    margin: 20px 0 20px 0;
+    padding-top: 20px;
+}
+
